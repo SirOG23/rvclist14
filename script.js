@@ -30,7 +30,6 @@ function passlist()
       //copyToClipboard("sharelist");
       copyToClipboard(url);
       alert("ShoppingList URL Copied");
-    });
 }
 //vFinal share function
 function share()
