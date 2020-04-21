@@ -24,7 +24,7 @@ function get(name){
 //ShareList passbyvalues
 function passlist()
 {
- var url = "https://rvclist.github.io/index.html?list="+ shoppinglist;
+ var url = "https://rvclist.github.io/rvclist14/index.html?list="+ shoppinglist;
  //pass link to webpage
       document.getElementById("sharelist").innerHTML = 'Share List:\n' + url;
       //copyToClipboard("sharelist");
