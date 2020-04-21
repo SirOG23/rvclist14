@@ -123,7 +123,6 @@
 <li>Add PassList function to share shoppinglist array via&nbsp;URL pass by values</li>
 <li>Add copyToClipboard function</li>
 <li>Add Share Button to share list</li>
-<li>Work on CSS</li>
 <li>Work on webpage content (photos, descriptions, title tag, etc.)</li>
 </ul>
 <p>Week 15:&nbsp;<a href="http://bit.ly/2pzC9Jx">http://bit.ly/2pzC9Jx</a>&nbsp;</p>
