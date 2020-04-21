@@ -121,10 +121,14 @@
 <p>Week 14:&nbsp;<a href="https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL">https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL</a>&nbsp; source:&nbsp;<a href="https://github.com/rvclist/rvclist14">https://github.com/rvclist/rvclist14</a>&nbsp;</p>
 <ul>
 Slides: https://docs.google.com/presentation/d/1jPbCLHi5C0RGqqr_rwU_I195feCXnunYZUI-y7BuXnA/edit?usp=sharing 
-<li>Add PassList function to share shoppinglist array via&nbsp;URL pass by values</li>
+<li>Add ShareList and ShareButton ID to HTML</li>
+<li>Add PassList function to share shoppinglist array via URL pass by values</li>
+<li>Update Sharelist ID</li>
 <li>Add copyToClipboard function</li>
-<li>Add Share Button to share list</li>
-<li>Work on webpage content (photos, descriptions, title tag, etc.)</li>
+<li>Change message about copying URL to be different</li>
+<li>Update displayShoppinglists()</li>
+<li>Update ShareButton</li>
+<li>Update Sharelist</li>
 </ul>
 <p>Week 15:&nbsp;<a href="http://bit.ly/2pzC9Jx">http://bit.ly/2pzC9Jx</a>&nbsp;</p>
 <h6>Shopping List Version 4.1</h6>
