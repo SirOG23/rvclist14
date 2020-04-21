@@ -44,8 +44,8 @@ function copyToClipboard(text) {
   passbyurl.focus();
   passbyurl.select();
   document.execCommand("copy");
+  document.body.removeChild(textArea);
   alert("URL has been copied. Ready to share: " + text);
-   document.body.removeChild(textArea);
   //window.prompt("Copy & Share List!", text);
     
 }
