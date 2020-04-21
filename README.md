@@ -120,6 +120,7 @@
 </ul>
 <p>Week 14:&nbsp;<a href="https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL">https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL</a>&nbsp; source:&nbsp;<a href="https://github.com/rvclist/rvclist14">https://github.com/rvclist/rvclist14</a>&nbsp;</p>
 <ul>
+Slides: https://docs.google.com/presentation/d/1jPbCLHi5C0RGqqr_rwU_I195feCXnunYZUI-y7BuXnA/edit?usp=sharing 
 <li>Add PassList function to share shoppinglist array via&nbsp;URL pass by values</li>
 <li>Add copyToClipboard function</li>
 <li>Add Share Button to share list</li>
