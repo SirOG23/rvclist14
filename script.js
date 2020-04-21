@@ -21,37 +21,15 @@ function get(name){
     if(num>=0) return url.substr(0,num);
     if(num<0)  return url;
 }
-//v4.1 ShareList via bitly api
+//ShareList passbyvalues
 function passlist()
 {
  var url = "https://rvclist.github.io/index.html?list="+ shoppinglist;
-    var accessToken = "eff66075988ab2f610fba18455b493ce90540381";
-
-    var params = {
-        "long_url" : url           
-    };
-
-    $.ajax({
-        url: "https://api-ssl.bitly.com/v4/shorten",
-        cache: false,
-        dataType: "json",
-        method: "POST",
-        contentType: "application/json",
-        beforeSend: function (xhr) {
-            xhr.setRequestHeader("Authorization", "Bearer " + accessToken);
-        },
-        data: JSON.stringify(params)
-    }).done(function(data) {
-        //alert(data.link);
-         getshorturl = 1;
-         document.getElementById("sharelist").innerHTML = 'Share List:\n' + data.link;
-         copyToClipboard(data.link);
-    }).fail(function(data) {
-        //alert(data.link);
+ //pass link to webpage
       document.getElementById("sharelist").innerHTML = 'Share List:\n' + url;
       //copyToClipboard("sharelist");
       copyToClipboard(url);
-      //alert("ShoppingList URL Copied");
+      alert("ShoppingList URL Copied");
     });
 }
 //vFinal share function
