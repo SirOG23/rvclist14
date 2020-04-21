@@ -118,9 +118,10 @@
 <li>Add ability to submit new item when [enter] key pressed</li>
 <li>Add popup describing app when visitors load webpage the first time</li>
 </ul>
-<p>Week 14:&nbsp;<a href="https://rvclist.github.io/index.html?list=eggs,milk,bread">https://rvclist.github.io/index.html?list=eggs,milk,bread</a>&nbsp; source:&nbsp;<a href="https://github.com/rvclist/rvclist.github.io">https://github.com/rvclist/rvclist.github.io</a>&nbsp;</p>
+<p>Week 14:&nbsp;<a href="https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL">https://rvclist.github.io/rvclist14/index.html?list=Week%2014,Share%20By%20URL</a>&nbsp; source:&nbsp;<a href="https://github.com/rvclist/rvclist14">https://github.com/rvclist/rvclist14</a>&nbsp;</p>
 <ul>
-<li>Add function to share shoppinglist array via&nbsp;URL pass by values</li>
+<li>Add PassList function to share shoppinglist array via&nbsp;URL pass by values</li>
+<li>Add copyToClipboard function</li>
 <li>Add Share Button to share list</li>
 <li>Work on CSS</li>
 <li>Work on webpage content (photos, descriptions, title tag, etc.)</li>
