@@ -38,9 +38,16 @@ function share()
 }
 //v4.1 prompt message to copy URL
 function copyToClipboard(text) {
-   text.setSelectionRange(0, 99999)
-   document.execCommand("copy");
-   window.prompt("Copy & Share List!", text);
+  var passbyurl = document.createElement("textarea");
+  passbyurl.value = text;
+  document.body.appendChild(passbyurl);
+  passbyurl.focus();
+  passbyurl.select();
+  document.execCommand("copy");
+  alert("URL has been copied. Ready to share: " + text);
+   document.body.removeChild(textArea);
+  //window.prompt("Copy & Share List!", text);
+    
 }
 
 function about()
