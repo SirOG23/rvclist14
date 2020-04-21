@@ -21,7 +21,7 @@ function get(name){
     if(num>=0) return url.substr(0,num);
     if(num<0)  return url;
 }
-//ShareList passbyvalues
+//ShareList passbyvalues Week 14
 function passlist()
 {
  var url = "https://rvclist.github.io/rvclist14/index.html?list="+ shoppinglist;
@@ -29,14 +29,13 @@ function passlist()
       document.getElementById("sharelist").innerHTML = 'Share List:\n' + url;
       //copyToClipboard("sharelist");
       copyToClipboard(url);
-      alert("ShoppingList URL Copied");
 }
 //vFinal share function
 function share()
 {
    passlist();
 }
-//v4.1 prompt message to copy URL
+//Copy URL Week 14
 function copyToClipboard(text) {
   var passbyurl = document.createElement("textarea");
   passbyurl.value = text;
